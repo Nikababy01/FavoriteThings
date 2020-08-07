@@ -10,12 +10,15 @@ namespace FavoriteThings
             //Designer Class properties
             var purse = new DesignerPurse(100, "Gucci");
             purse.Purchase("black", "clutch");
+            purse.Sell();
 
             // Pizza class properties
             var pizza = new Pizza();
             pizza.Sauce = "Marinara";
             pizza.Crust = PizzaCrust.Thin;
             pizza.Eat("pizza");
+            pizza.Speciality("pepporoni");
+
 
             //Jamaica class properties
             var jamaica = new Jamaica();
